@@ -1,25 +1,3 @@
-/* This project was only debugged, tested and documented by me, but not coded by me as a part of a pair work for a final project, credits to the original author.
-
-Abstract:
-This program is used to calculate the actual efficiency of an assembly line compared to its ideal efficiency. The first part is a sign in screen that is 
-for organizing each assembly line. The usernames, passwords, and assembly line details will be stored in txt files (if we can make it work). 
-After the user either signs in or creates a new account, they will be prompted to input the details of the assembly line 
-(number of processes and ideal time for each process), these will be saved to the txt file (if possible). Next, the user is prompted to input 
-the data for the actual current assembly line (amount of items, amount of failed items, and actual time for each process). 
-The efficiency percent and failed/successful percent are then outputted for each process and as a whole along with a ranking of each process's efficiency, 
-fail percent, and overall time taken.
-●	Prompts the user to sign in
-●	Collects the ideal processing time for each stage
-●	Collects the actual data about the assembly line
-●	Calculates what stages are inefficient compared to the ideal conditions 
-
-Introduction:
-This program is designed to aid students, especially engineering students to help them calculate the efficiency of an assembly line. 
-By also having them to sign-in is a convenient way to add security to the program that we are about to create. 
-It will ensure the program that the ones who will use it is an engineer who will compute for their assembly line. 
-By just having the user to input their data for the assembly line, they can calculate and predict their progress and efficiency on their project in an instant.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -325,3 +303,4 @@ int main() {
 
     return 0;
 }
+
